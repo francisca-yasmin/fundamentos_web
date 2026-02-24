@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.ponyo{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
