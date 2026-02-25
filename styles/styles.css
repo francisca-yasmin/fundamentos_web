@@ -1,28 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 body{
     background: #e0dbcf;
-}
-
-.ponyo{
-    height: 200px;
-    width: 200px;
-    justify-content: center;
     display: flex;
-    border-radius: 100px;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
-.titulo{
-    justify-content: center;
-    display: flex;
-    font-size: 20px;
-    font-family: 'Poppins';
+main {
+    flex: 1;
 }
 
+/* css do header */
+.header ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  list-style: none;
+  padding: 15px;
+  font-size: 18px;
+  margin: 12px;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+/* primeira section do projeto */
 .sobre-container {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -31,7 +41,7 @@ body{
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  font-family: Georgia, serif;
+  font-family: 'Poppins';
   background: #fdf8f2;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
@@ -53,7 +63,7 @@ body{
   height: auto;
   border-radius: 10px;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /*sombreado deibaixo da box do conteudo*/
 }
 
 .sobre-container p {
@@ -64,6 +74,7 @@ body{
   line-height: 1.8;
   color: #444;
   align-self: center;
+  text-align: justify;
 }
 
 /* css da parte sobre os pontos do filme */
@@ -101,6 +112,23 @@ body{
   padding-left: 1.2rem;
 }
 
+/* CSS DO FOOTER */
 .footer{
+    background-color: #000000;
+}
 
+.footer ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+    font-size: 18px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.footer a{
+    text-decoration: none;
+    color: inherit;
 }
