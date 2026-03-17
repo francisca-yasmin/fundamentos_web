@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    
+    <!-- NAVBAR -->
+    <nav>
+        <span  class="nav-logo">Portfólio</span>
+        <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <p class="hero-label">Estudante de Sistema da Informação</p>
+            <h1>Olá, eu sou <em>Francisca Yasmin</em></h1>
+            <p class="hero-desc">
+                Desenvolvedora apaixonada por tecnologia, criando soluções
+                digitais que fazem a diferença. 
+            </p>
+            <div class="hero-buttons">
+                <a href="sobre.html" class="btn-primary">
+                    Sobre Mim
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+                <a href="#projetos" class="btn-secondary">Ver Projetos</a>  
+            </div>
+        </section>
+        
+        <!-- SKILLS -->
+        <section class="skills">
+            <h2>Minhas <em>habilidades</em></h2>
+            <div class="skills-grid">
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <!-- Code icon -->
+                        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>Frontend</h3>
+                    <p>React, TypeScript, HTML, CSS, animações e interfaces responsivas, Next.js</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <!-- Database icon -->
+                        <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                    </div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Python, PostgreSQL, Django, MySQL, Next.js</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <!-- Mobile icon -->
+                        <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                    </div>
+                    <h3>Mobile</h3>
+                    <p>Flutter, aplicações Android com experiência mobile.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <!-- Layout/Design icon -->
+                        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                    </div>
+                    <h3>Design</h3>
+                    <p>Figma, UI/UX, prototipagem, design systems e acessibilidade.</p>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- PROJECTS -->
+        <section id="projetos" class="projects">
+            <h2>Meus <em>projetos</em></h2>
+            <div class="projects-grid">
+                
+                <!-- Card 1: Sistema de Gestão -->
+                <div class="project-card">
+                    <div class="project-thumb thumb-gestao">
+                        <img src="images/etour.png" alt="">
+                        <rect x="120" y="50" width="160" height="170" rx="4" fill="#2563eb"/>
+                        <circle cx="270" cy="180" r="90" fill="#f97316"/>
+                        <rect x="240" y="60" width="160" height="140" rx="4" fill="none" stroke="#2563eb" stroke-width="2"/>
+                        <circle cx="370" cy="80" r="18" fill="#2563eb"/>
+                        <circle cx="330" cy="155" r="50" fill="#2563eb"/>
+                        <circle cx="155" cy="160" r="38" fill="#a5b4fc" opacity="0.75"/>
+                        <circle cx="260" cy="230" r="28" fill="#f97316"/>
+                    </svg>
+                </div>
+                <div class="project-info">
+                    <h3>E-Tour - Tour com realidade virtual</h3>
+                    <span class="project-tag">Modelagem 3D</span>
+                </div>
+            </div>
+            
+            <!-- Card 2: Design System -->
+            <div class="project-card">
+                <div class="project-thumb thumb-design">
+                    <img src="images/Relock.png" alt="">
+                        <line x1="60" y1="10" x2="60" y2="250" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="155" y1="10" x2="155" y2="250" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="250" y1="10" x2="250" y2="250" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="345" y1="10" x2="345" y2="250" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="440" y1="10" x2="440" y2="250" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="60" y1="30" x2="440" y2="30" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="60" y1="100" x2="440" y2="100" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="60" y1="170" x2="440" y2="170" stroke="#e5e7eb" stroke-width="1"/>
+                        <line x1="60" y1="240" x2="440" y2="240" stroke="#e5e7eb" stroke-width="1"/>
+                        <rect x="260" y="38" width="72" height="52" rx="2" fill="#2563eb"/>
+                        <rect x="70" y="108" width="72" height="52" rx="2" fill="#3b82f6"/>
+                        <rect x="165" y="108" width="72" height="52" rx="2" fill="#1d4ed8"/>
+                        <rect x="165" y="178" width="72" height="52" rx="2" fill="#2563eb"/>
+                        <rect x="355" y="178" width="44" height="44" rx="2" fill="#60a5fa"/>
+                    </svg>
+                </div>
+                <div class="project-info">
+                    <h3>Design System</h3>
+                    <span class="project-tag">UI / UX Design | Frontend Development</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</main>
+
+  <hr>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact-section">
+        <h2 class="contact-title">Me conheça <em>melhor</em></h2>
+        <div class="contact-links">
+            <a href="mailto:yasmimfreitas761@gmail.com" class="email-link">yasmimfreitas761@gmail.com</a>
+            <span class="separator">·</span>
+            <a href="#" class="plain-link">LinkedIn</a>
+            <span class="separator">·</span>
+            <a href="https://github.com/francisca-yasmin" class="plain-link">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 · Feito pela fran</p>
+    </footer>
+    
+</body>
+</html>
