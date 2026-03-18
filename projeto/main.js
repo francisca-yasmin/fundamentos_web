@@ -116,6 +116,24 @@ while(i < 10){
     i++
 }
 
+let nome1 = "fran"
+console.log(name1.length)
+
+for (let letra = 0; letra < name1.length; letra++){
+    console.log(nome1[letra])
+}
+
+//-------------------------------------------
+function somando(n1, n2){
+    let soma = n1 + n2
+    console.log(soma)
+}
+
+somando(5,5)
+//+++++++++++++++++++++++++++++++++++++++++++
+
+
+
 //--------------------------------------------
 let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
