@@ -1,20 +1,22 @@
-let botao = document.getElementById("botao_gato").textContent = "oi fran"
+// let botao = document.getElementById("botao_gato").textContent = "oi fran"
 
-// 
 
-// function play_som(itemId){
-//     document.getElementById(itemId).play()
-// }
-
+function play_som(itemId){
+    document.getElementById(itemId).play()
+}
 
 let listaDeTeclas = document.querySelectorAll(".tecla")
 
-botao.onclick = function(){
-    play_som(itemId)
+for (let cont = 0; cont < listaDeTeclas.length; cont++){
+    
+    let botao =  listaDeTeclas[cont]
+    let itemId = listaDeTeclas[cont].classList[1]
+
+    botao.onclick = function(){
+        play_som(itemId)
+    }
 }
 
-let botao = listaDeTeclas[0]
-let itemId = listaDeTeclas[0].classList[1]
 
 console.log(botao)
 console.log(itemId)
