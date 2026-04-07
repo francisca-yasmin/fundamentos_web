@@ -10,3 +10,17 @@
 .botao:hover{
     background-color: white;
 }
+
+.container{
+    width: 900px;
+    background-color: aqua;
+    display: flex;
+}
+
+.card{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+}
