@@ -1,0 +1,12 @@
+.botao{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 80px;
+    border: none; /* px solid black*/
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background-color: white;
+}
